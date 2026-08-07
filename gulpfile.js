@@ -29,7 +29,7 @@ function scssTask() {
 }
 
 function jsTask() {
-    return src(files.jsPath)
+    return src(files.jsPath, { allowEmpty: true })
         .pipe(concat('app.js'))
         .pipe(uglify())
         .pipe(dest('./js/'));
