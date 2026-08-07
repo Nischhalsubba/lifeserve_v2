@@ -4,27 +4,27 @@
 
 # lifeserve_v2
 
-**Branch-aware technical guide for [`master`](https://github.com/Nischhalsubba/lifeserve_v2/tree/master)**
+**Branch-aware technical guide for [`agent/security-build-repair`](https://github.com/Nischhalsubba/lifeserve_v2/tree/agent/security-build-repair)**
 
-<p><img alt="branch: master" src="https://img.shields.io/static/v1?label=&message=branch%3A%20master&color=5965F2&style=flat-square"> <img alt="Sass" src="https://img.shields.io/static/v1?label=&message=Sass&color=24292F&style=flat-square"> <img alt="JavaScript" src="https://img.shields.io/static/v1?label=&message=JavaScript&color=24292F&style=flat-square"> <img alt="HTML" src="https://img.shields.io/static/v1?label=&message=HTML&color=24292F&style=flat-square"> <img alt="CSS" src="https://img.shields.io/static/v1?label=&message=CSS&color=24292F&style=flat-square"> <img alt="docs: branch-aware" src="https://img.shields.io/static/v1?label=&message=docs%3A%20branch-aware&color=8250DF&style=flat-square"></p>
+<p><img alt="branch: agent/security-build-repair" src="https://img.shields.io/static/v1?label=&message=branch%3A%20agent%2Fsecurity-build-repair&color=5965F2&style=flat-square"> <img alt="Sass" src="https://img.shields.io/static/v1?label=&message=Sass&color=24292F&style=flat-square"> <img alt="JavaScript" src="https://img.shields.io/static/v1?label=&message=JavaScript&color=24292F&style=flat-square"> <img alt="HTML" src="https://img.shields.io/static/v1?label=&message=HTML&color=24292F&style=flat-square"> <img alt="CSS" src="https://img.shields.io/static/v1?label=&message=CSS&color=24292F&style=flat-square"> <img alt="docs: branch-aware" src="https://img.shields.io/static/v1?label=&message=docs%3A%20branch-aware&color=8250DF&style=flat-square"></p>
 
 <p>
-  <a href="https://github.com/Nischhalsubba/lifeserve_v2/tree/master"><strong>Browse source</strong></a> ·
+  <a href="https://github.com/Nischhalsubba/lifeserve_v2/tree/agent/security-build-repair"><strong>Browse source</strong></a> ·
   <a href="https://github.com/Nischhalsubba/lifeserve_v2/issues"><strong>Issues</strong></a> ·
-  <a href="https://github.com/Nischhalsubba/lifeserve_v2/codespaces/new?ref=master"><strong>Open in Codespaces</strong></a>
+  <a href="https://github.com/Nischhalsubba/lifeserve_v2/codespaces/new?ref=agent%2Fsecurity-build-repair"><strong>Open in Codespaces</strong></a>
 </p>
 
 </div>
 
 > [!IMPORTANT]
-> This guide is generated from the files actually present on `master`. It links to detected source paths, preserves project-authored notes, and avoids claiming components that were not found.
+> This guide is generated from the files actually present on `agent/security-build-repair`. It links to detected source paths, preserves project-authored notes, and avoids claiming components that were not found.
 
 ## At a glance
 
 | Item | Detected value |
 |---|---|
 | Purpose | A Sass project documented from the current branch structure and manifests. |
-| Branch role | Default branch |
+| Branch role | Compared with `master` |
 | Stack | Sass, JavaScript, HTML, CSS |
 | Manifests | package.json |
 | Prerequisites | Node.js |
@@ -33,7 +33,7 @@
 
 ## Branch scope
 
-This is the repository's default branch.
+No branch-specific file differences were detected against the default branch at generation time.
 
 
 
@@ -41,7 +41,7 @@ This is the repository's default branch.
 
 ```bash
 npm install
-npm run test
+npm run build
 ```
 
 ### Configuration surface
@@ -54,7 +54,7 @@ npm run test
 
 ```mermaid
 flowchart TD
-    ROOT["lifeserve_v2 / master"]
+    ROOT["lifeserve_v2 / agent/security-build-repair"]
     ROOT --> P0[".github/"]
     ROOT --> P1["assets/"]
     ROOT --> P2["docs/"]
@@ -71,8 +71,8 @@ flowchart TD
 
 | Responsibility | Detected source paths |
 |---|---|
-| Documentation | [`docs`](https://github.com/Nischhalsubba/lifeserve_v2/tree/master/docs) |
-| Delivery | [`.github`](https://github.com/Nischhalsubba/lifeserve_v2/tree/master/.github) |
+| Documentation | [`docs`](https://github.com/Nischhalsubba/lifeserve_v2/tree/agent/security-build-repair/docs) |
+| Delivery | [`.github`](https://github.com/Nischhalsubba/lifeserve_v2/tree/agent/security-build-repair/.github) |
 
 ## Website or application map
 
@@ -106,7 +106,7 @@ flowchart LR
 - No conventional test directory was detected automatically.
 
 Detected commands:
-- `npm run test`
+- `npm run build`
 
 </td>
 <td width="33%" valign="top">
@@ -134,7 +134,7 @@ Define useful logs, metrics, traces, alerts, and rollback signals for production
 
 ```mermaid
 flowchart LR
-    CHANGE["Change on master"] --> CHECK["Tests and quality checks"]
+    CHANGE["Change on agent/security-build-repair"] --> CHECK["Tests and quality checks"]
     CHECK --> REVIEW["Review architecture and documentation impact"]
     REVIEW --> BUILD["Build or package"]
     BUILD --> DEPLOY["Deploy or release"]
@@ -143,7 +143,7 @@ flowchart LR
 
 ### Automation detected
 
-- [`.github/workflows/apply-interactive-readme.yml`](https://github.com/Nischhalsubba/lifeserve_v2/blob/master/.github/workflows/apply-interactive-readme.yml)
+- [`.github/workflows/apply-interactive-readme.yml`](https://github.com/Nischhalsubba/lifeserve_v2/blob/agent/security-build-repair/.github/workflows/apply-interactive-readme.yml)
 
 ## Contribution flow
 
@@ -168,7 +168,7 @@ flowchart LR
 | Topic | Source |
 |---|---|
 | Repository | [`Nischhalsubba/lifeserve_v2`](https://github.com/Nischhalsubba/lifeserve_v2) |
-| Branch | [`master`](https://github.com/Nischhalsubba/lifeserve_v2/tree/master) |
+| Branch | [`agent/security-build-repair`](https://github.com/Nischhalsubba/lifeserve_v2/tree/agent/security-build-repair) |
 | Ownership | No CODEOWNERS file detected |
 | Contributing | Use the contribution flow above |
 | Support | [Open or review issues](https://github.com/Nischhalsubba/lifeserve_v2/issues) |
