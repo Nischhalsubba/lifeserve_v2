@@ -2,57 +2,10 @@
   "counts": {
     "info": 0,
     "low": 0,
-    "moderate": 2,
-    "high": 1,
+    "moderate": 0,
+    "high": 0,
     "critical": 0,
-    "total": 3
+    "total": 0
   },
-  "findings": [
-    {
-      "name": "@gulp-sourcemaps/identity-map",
-      "severity": "moderate",
-      "direct": false,
-      "range": ">=2.0.0",
-      "via": [
-        "postcss"
-      ],
-      "fixAvailable": {
-        "name": "gulp-sourcemaps",
-        "version": "2.6.5",
-        "isSemVerMajor": true
-      }
-    },
-    {
-      "name": "gulp-sourcemaps",
-      "severity": "moderate",
-      "direct": true,
-      "range": ">=3.0.0",
-      "via": [
-        "@gulp-sourcemaps/identity-map"
-      ],
-      "fixAvailable": {
-        "name": "gulp-sourcemaps",
-        "version": "2.6.5",
-        "isSemVerMajor": true
-      }
-    },
-    {
-      "name": "postcss",
-      "severity": "high",
-      "direct": false,
-      "range": "<=8.5.22",
-      "via": [
-        "PostCSS line return parsing error",
-        "PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
-        "PostCSS: Arbitrary file read and information disclosure via attacker-controlled sourceMappingURL in CSS comments",
-        "PostCSS: Path Traversal in Previous Source Map Auto-Loading (sourceMappingURL) leads to Arbitrary .map File Disclosure",
-        "PostCSS: incomplete fix of GHSA-6g55-p6wh-862q — attacker-controlled sourceMappingURL reads arbitrary .map files when `from` is unset"
-      ],
-      "fixAvailable": {
-        "name": "gulp-sourcemaps",
-        "version": "2.6.5",
-        "isSemVerMajor": true
-      }
-    }
-  ]
+  "findings": []
 }

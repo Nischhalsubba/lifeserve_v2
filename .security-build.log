@@ -2,11 +2,11 @@
 > scss-utilities@1.0.0 build
 > gulp build
 
-[06:00:15] Using gulpfile ~/work/lifeserve_v2/lifeserve_v2/gulpfile.js
-[06:00:15] Starting 'build'...
-[06:00:15] Starting 'scssTask'...
-[06:00:15] Starting 'jsTask'...
-[06:00:15] Finished 'jsTask' after 12 ms
+[06:04:54] Using gulpfile ~/work/lifeserve_v2/lifeserve_v2/gulpfile.js
+[06:04:54] Starting 'build'...
+[06:04:54] Starting 'scssTask'...
+[06:04:54] Starting 'jsTask'...
+[06:04:54] Finished 'jsTask' after 6.34 ms
 DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
 
 More info: https://sass-lang.com/d/legacy-js-api
@@ -77,7 +77,7 @@ More info and automated migrator: https://sass-lang.com/d/slash-div
 
 WARNING: 12 repetitive deprecation warnings omitted.
 
-[06:00:15] Finished 'scssTask' after 243 ms
-[06:00:15] Starting 'cacheBustTask'...
-[06:00:16] Finished 'cacheBustTask' after 151 ms
-[06:00:16] Finished 'build' after 397 ms
+[06:04:54] Finished 'scssTask' after 129 ms
+[06:04:54] Starting 'cacheBustTask'...
+[06:04:54] Finished 'cacheBustTask' after 72 ms
+[06:04:54] Finished 'build' after 202 ms
