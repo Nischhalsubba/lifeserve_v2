@@ -2,10 +2,115 @@
 > scss-utilities@1.0.0 build
 > gulp build
 
-[04:47:50] Using gulpfile ~/work/lifeserve_v2/lifeserve_v2/gulpfile.js
-[04:47:50] Starting 'build'...
-[04:47:50] Starting 'scssTask'...
-[04:47:50] Starting 'jsTask'...
-[04:47:50] 'jsTask' errored after 23 ms
-[04:47:50] Error: ENOENT: no such file or directory, scandir '/home/runner/work/lifeserve_v2/lifeserve_v2/assets/js'
-[04:47:50] 'build' errored after 26 ms
+[04:50:46] Using gulpfile ~/work/lifeserve_v2/lifeserve_v2/gulpfile.js
+[04:50:46] Starting 'build'...
+[04:50:46] Starting 'scssTask'...
+[04:50:46] Starting 'jsTask'...
+[04:50:46] Finished 'jsTask' after 11 ms
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │ @import "./helper/varaibles";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    assets/sass/style.scss 4:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "./helper/mixins";
+  │         ^^^^^^^^^^^^^^^^^
+  ╵
+    assets/sass/style.scss 5:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+10 │ @import "./base/typography";
+   │         ^^^^^^^^^^^^^^^^^^^
+   ╵
+    assets/sass/style.scss 10:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+15 │ @import "./base/base";
+   │         ^^^^^^^^^^^^^
+   ╵
+    assets/sass/style.scss 15:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+20 │ @import "component/alignments";
+   │         ^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    assets/sass/style.scss 20:9  root stylesheet
+
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($size, 10) or calc($size / 10)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+4 │     font-size: $size/10 + rem;
+  │                ^^^^^^^^
+  ╵
+    assets/sass/helper/_mixins.scss 4:16   font-size()
+    assets/sass/base/_typography.scss 7:5  @import
+    assets/sass/style.scss 10:9            root stylesheet
+
+[04:50:46] 'scssTask' errored after 134 ms
+[04:50:46] [31mError[39m in plugin "[36mgulp-sass[39m"
+Message:
+    assets/sass/style.scss
+Error: Can't find stylesheet to import.
+   ╷
+50 │ @import "layout/media-queries";
+   │         ^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+  assets/sass/style.scss 50:9  root stylesheet
+Details:
+    formatted: Error: Can't find stylesheet to import.
+   ╷
+50 │ @import "layout/media-queries";
+   │         ^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+  assets/sass/style.scss 50:9  root stylesheet
+    line: 50
+    column: 9
+    file: /home/runner/work/lifeserve_v2/lifeserve_v2/assets/sass/style.scss
+    status: 1
+    messageFormatted: [4massets/sass/style.scss[24m
+Error: Can't find stylesheet to import.
+   ╷
+50 │ @import "layout/media-queries";
+   │         ^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+  assets/sass/style.scss 50:9  root stylesheet
+    messageOriginal: Can't find stylesheet to import.
+   ╷
+50 │ @import "layout/media-queries";
+   │         ^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+  assets/sass/style.scss 50:9  root stylesheet
+    relativePath: assets/sass/style.scss
+    domainEmitter: [object Object]
+    domainThrown: false
+
+[04:50:46] 'build' errored after 137 ms
