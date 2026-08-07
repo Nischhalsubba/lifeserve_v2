@@ -7,6 +7,7 @@ on:
     paths:
       - package.json
       - gulpfile.js
+      - assets/sass/**
       - .github/workflows/security-build-repair.yml
 
 permissions:
