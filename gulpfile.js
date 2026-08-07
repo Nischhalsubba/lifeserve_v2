@@ -1,3 +1,4 @@
+const fs = require('fs');
 const {
     src,
     dest,
@@ -29,7 +30,11 @@ function scssTask() {
 }
 
 function jsTask() {
-    return src(files.jsPath, { allowEmpty: true })
+    if (!fs.existsSync('./assets/js')) {
+        return Promise.resolve();
+    }
+
+    return src(files.jsPath)
         .pipe(concat('app.js'))
         .pipe(uglify())
         .pipe(dest('./js/'));
