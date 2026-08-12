@@ -1,8 +1,8 @@
 {
-  "name": "lifeserve-v2",
+  "name": "scss-utilities",
   "version": "1.0.0",
   "private": true,
-  "description": "Static LifeServe website prototype with a Sass and Gulp build pipeline.",
+  "description": "Build dependencies for the LifeServe static website prototype.",
   "scripts": {
     "build": "gulp build"
   },
