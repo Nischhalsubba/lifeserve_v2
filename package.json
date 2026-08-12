@@ -1,9 +1,11 @@
 {
-  "name": "scss-utilities",
+  "name": "lifeserve-v2",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {},
+  "private": true,
+  "description": "Static LifeServe website prototype with a Sass and Gulp build pipeline.",
+  "scripts": {
+    "build": "gulp build"
+  },
   "devDependencies": {
     "autoprefixer": "^10.5.4",
     "cssnano": "^8.0.2",
@@ -17,20 +19,20 @@
     "postcss": "^8.5.23",
     "sass": "^1.101.7"
   },
-  "scripts": {
-    "build": "gulp build"
-  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Nischhalsubba/sassUtilities.git"
+    "url": "https://github.com/Nischhalsubba/lifeserve_v2.git"
   },
   "keywords": [
-    "scssUtilities"
+    "lifeserve",
+    "static-site",
+    "sass",
+    "gulp"
   ],
   "author": "Nischhal Raj Subba",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Nischhalsubba/sassUtilities/issues"
+    "url": "https://github.com/Nischhalsubba/lifeserve_v2/issues"
   },
-  "homepage": "https://github.com/Nischhalsubba/sassUtilities#readme"
+  "homepage": "https://github.com/Nischhalsubba/lifeserve_v2#readme"
 }
